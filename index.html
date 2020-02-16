@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Creative Studio</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet"> 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap" rel="stylesheet"/> -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    
+      <nav class="navbar navbar-expand-lg navbar navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="frontend/images/cslogo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto my-3 my-lg-0">
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link active" href="booking.html"> Booking </a>
+            </li>
+            <li class="nav-item mx-md-3">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+          </ul>
+
+          <!-- Mobile button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-3 my-sm-0">
+              Login
+            </button>
+          </form>
+          <!-- Desktop Button -->
+          <form class="form-inline my-3 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Login
+            </button>
+          </form>
+        </div>
+      </nav>
+    
+    <header class="text-center">
+      <h1>
+       Digital startup Photo Studio
+        <br />
+        Capture Your Best Moments
+      </h1>
+      <p class="mt-3">
+        You will see beautiful moments
+        <br />
+        That have never been seen before
+      </p>
+      <a href="#" class="btn btn-get-started px-4 mt-4">
+        Get Started
+      </a>
+    </header>
+    <main>
+      
+      <section class="section-popular" id="popular">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-popular-heading">
+              <h2>inspiration for you Next Creative</h2>
+              <p>
+                Something that you never try
+                <br />
+                before in this world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-popular-content" id="popularContent">
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column" 
+                style="background-image: url('frontend/images/bg1.png');">
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/bg2.png');"> 
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/bg3.png');">
+                
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/bg4.png');">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-networks" id="networks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Our Networks</h2>
+              <p>
+                Companies are trusted us
+                <br />
+                more than just a trip
+              </p>
+            </div>
+            <div class="col-md-8 text-center">
+              <img src="frontend/images/progressmenu.png" class="img-patner" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-heading" id="testimonialsHeading">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+              <h2>They Are Team Member</h2>
+              <p>
+                the best experience
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-content" id="testimonialsContent">
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center match-height">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="frontend/images/mm1.png" alt="" class="mb-4 rounded-circle"/>
+                  <h3 class="mb-4">Muhammad Ridwan</h3>
+                  <p class="testimonials">
+                    “ Segala Sesuatu Yang Memang Ditakdirkan Untuk Kita, Sudah Terlulis Di Lauh Maahfudz “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">CEO</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="frontend/images/mm2.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Ayash Tyas</h3>
+                  <p class="testimonials">
+                    “ Harapan Itu Seperti Sayap. Makin Tinggi Kau Dibawanya Terbang,  Makin Sakit Jika Ia Mendadak Hilang “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Developer Android</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="frontend/images/mm3.png" alt="" class="mb-4 rounded-circle"/>
+                  <h3 class="mb-4">Rizal</h3>
+                  <p class="testimonials">
+                    “  “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Developer Android & Web</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img src="frontend/images/mm4.png" alt="" class="mb-4 rounded-circle"/>
+                  <h3 class="mb-4">Ridhuwan</h3>
+                  <p class="testimonials">
+                    “ Kemampuan Seseorang Terbatas namun tekad seseorang tanpa batas “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Technical Support</p>
+              </div>
+            </div>
+          
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
+                I Need Help
+              </a>
+              <a href="booking.html" class="btn btn-get-started px-4 mt-4 mx-1">
+                Booking
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="contact" class="pad-section"></div>
+    <footer class="section-footer mt-5 mb-12 border-top" style=" background-color: #B2928D;">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12 col-lg-3">
+                    <h5>FEATURES</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#">Reviews</a>
+                      </li>
+                      <li>
+                        <a href="#">Community</a>
+                      </li>
+                      <li>
+                        <a href="#">Social Media Kit</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Google</a></li>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Instagram</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>COMPANY</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">Help Center</a></li>
+                      <li><a href="#">Media</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>Get Connected</h5>
+                    <ul class="list-unstyled">
+                      <li>Tangerang Selatan</li>
+                      <li>Indonesia</li>
+                      <li>0888 - 2222 - 6666</li>
+                      <li>support@StudioCreative.id</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row border-top justify-content-center align-items-center pt-4">
+          <div class="col-auto text-gray-500 font-weight-light">
+            2019 Copyright Creative Studio • All rights reserved •
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
